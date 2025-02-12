@@ -26,6 +26,19 @@
 </ol>
 
 <h2>Screenshots</h2>
-[Screenshot_20250212_222159](https://github.com/user-attachments/assets/1ec6bbf9-885a-430a-806b-0aeb5b6c1b34)
+![Screenshot_20250212_222159](https://github.com/user-attachments/assets/4edf916a-face-40b8-b226-ff5cb9038082)
+![Screenshot_20250212_222246](https://github.com/user-attachments/assets/5e5afc7e-963a-4325-be3b-b102e7de9a2b)
 
+<h2>How it Works</h2>
+<li>When the app is launched, it first tries to fetch the latest movie data from the TMDB API.</li>
+<li>If the device is offline, it will retrieve the data stored in the local ROOM database and display it.</li>
+<li>Once the device is back online, the app syncs with TMDB to fetch the most up-to-date movie nformation and stores it in the ROOM database for future offline access.</li>
+
+<h2>Dependencies</h2>
+<li>Jetpack Compose: For UI components</li>
+<li>Retrofit: For API requests</li>
+<li>Gson: For JSON parsing</li>
+<li>Coil: For image loading (posters)</li>
+<li>ROOM Database: For offline storage</li>
+<li>Coroutines: For managing background tasks</li>
 
