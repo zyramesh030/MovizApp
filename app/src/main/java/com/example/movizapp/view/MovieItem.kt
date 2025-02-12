@@ -31,7 +31,7 @@ fun MovieItem(movie: Movie) {
             .clip(RoundedCornerShape(16.dp)),
         ) {
 
-        Row (modifier = Modifier.padding(8.dp)) {
+        Row (modifier = Modifier.padding(12.dp)) {
 
             AsyncImage(
                 model = "https://image.tmdb.org/t/p/w500/${movie.poster_path}",
@@ -42,7 +42,7 @@ fun MovieItem(movie: Movie) {
             Spacer(modifier = Modifier.width(8.dp))
 
             Column(modifier = Modifier.padding(16.dp)) {
-                Text(movie.title, style = MaterialTheme.typography.labelLarge)
+                Text(movie.title, style = MaterialTheme.typography.titleLarge, color = Color.Black)
                 Text(movie.overview, style = MaterialTheme.typography.bodySmall)
 
             }
