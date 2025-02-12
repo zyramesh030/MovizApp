@@ -5,6 +5,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.movizapp.R
 import com.example.movizapp.repository.MovieRepository
 import com.example.movizapp.retrofit.Movie
 import kotlinx.coroutines.launch
@@ -37,7 +38,7 @@ class MovieViewModel(repository: MovieRepository): ViewModel() {
     init {
         viewModelScope.launch {
             try {
-                moviesFromApi = repository.getPopularMoviesFromOnlineAPI("08b818c9255cc4d7e088f8ec99015655")
+                moviesFromApi = repository.getPopularMoviesFromOnlineAPI(R.string.api_key.toString())
 
                 // Insert Movies into ROOM DB
                 repository.insertMoviesIntoDB(moviesFromApi)
