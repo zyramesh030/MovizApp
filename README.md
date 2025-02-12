@@ -1,7 +1,7 @@
 <h1>Moviz App - Real-Time Popular Movies Fetcher</h1>
 
 <h2>Description</h2>
-<h5>The Movie App is an Android application that allows users to explore the latest popular movies. It fetches real-time data from the TMDB (The Movie Database) API to display trending movies using Jetpack Compose and the LazyColumn (RecyclerView) for smooth, scrollable lists. The app offers a modern user interface with an efficient, responsive design, delivering the most up-to-date information on popular movies.</h5>
+<h5>The <b>Moviz App</b> is an Android application that allows users to explore the latest popular movies. It fetches real-time data from the TMDB (The Movie Database) API and displays it using Jetpack Compose. The app features <b>LazyColumn</b> (RecyclerView) for smooth, scrollable lists, and also integrates <b>ROOM Database</b> to store movie data locally for offline access, ensuring a seamless user experience even when there's no internet connection.</h5>
 
 <h2>Features:</h2>
 <li><b>Real-Time Updates</b>: Fetches the latest popular movie data from TMDB API in real time.</li>
@@ -26,8 +26,8 @@
 </ol>
 
 <h2>Screenshots</h2>
-![Screenshot_20250212_222159](https://github.com/user-attachments/assets/4edf916a-face-40b8-b226-ff5cb9038082)
-![Screenshot_20250212_222246](https://github.com/user-attachments/assets/5e5afc7e-963a-4325-be3b-b102e7de9a2b)
+<img src = "https://github.com/user-attachments/assets/4edf916a-face-40b8-b226-ff5cb9038082" width=425> <img src = "https://github.com/user-attachments/assets/5e5afc7e-963a-4325-be3b-b102e7de9a2b" width=425>
+
 
 <h2>How it Works</h2>
 <li>When the app is launched, it first tries to fetch the latest movie data from the TMDB API.</li>
